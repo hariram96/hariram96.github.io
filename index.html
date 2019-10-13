@@ -21,7 +21,7 @@
             <p class="text-center fontSize_1">Hello, I'm Hariram.</p><br />
             <p class="text-center fontSize_2">I'm a full-stack web developer.</p>
             <div class="hero_button_div text-center">
-                <button class="div_button button--moema fontSize_3">See my works</button>
+                <button class="div_button fontSize_3 scroller">See my works</button>
             </div>
         </div>
     </section>
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="about_head_text text-center fontSize_2">About My Self</p>
+                    <p class="about_head_text text-center fontSize_2"  style="color:#4e4e4e;">About My Self</p>
                 </div>
             </div>
             <div class="card_text row">
@@ -121,7 +121,7 @@
                     <div class="animated_progress">
                         <div class="col-12">
                             <div class="progress" style="height: 28px;">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%;height:28px"> Responsive UI 85%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%;height:28px"> Responsive UI and UX design 85%</div>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
             <div class="container">
                 <div class="card_text row">
                     <div class="col-12">
-                        <p class="other_skills_head_text text-center fontSize_2">My Other Knowledge And Plugins</p>
+                        <p class="other_skills_head_text text-center fontSize_2"  style="color:#4e4e4e;">My Other Knowledge And Plugins</p>
                     </div>
                 </div>
                 <div class="row">
@@ -234,7 +234,7 @@
         <div class="container">
             <div class="card_text row">
                 <div class="col-12">
-                    <p class="other_skills_head_text fontSize_2 text-center">My Works</p>
+                    <p class="other_skills_head_text fontSize_2 text-center" style="color:#4e4e4e;">My Works</p>
                 </div>
             </div>
             <div class="row">
@@ -302,6 +302,13 @@
 <script src="./plugin/popper.min.js"></script>
 <script src="./plugin/bootstrap.min.js"></script>
 <script>
-
+    $(document).ready(function () {
+        $("button").click(function() {
+            $('html,body').animate({
+                scrollTop: $(".about_section").offset().top},
+            'slow');
+        });
+        
+    });
 </script>
 </html>
