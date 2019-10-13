@@ -229,7 +229,7 @@ h1{
 /* Small devices (portrait tablets and large phones, 600px and up) */     
 @media only screen and (min-width: 600px) {
     .hero_section {
-        background-color:darkcyan !important;
+        // background-color:darkcyan !important;
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -262,7 +262,7 @@ h1{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .hero_section {
-        background-color: purple !important;
+        // background-color: purple !important;
     }
     .btn{
         float: right;
@@ -275,11 +275,11 @@ h1{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .hero_section {
-        background-color: orange !important;
+        // background-color: orange !important;
     }
 }
 @media only screen and (min-width: 1440px) {
     .hero_section {
-        background-color: greenyellow !important;
+        // background-color: greenyellow !important;
     }
 }
