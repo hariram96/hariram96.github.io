@@ -20,7 +20,8 @@ p {
 }
 
 .hero_section {
-  background: #5a5066;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1d5591), color-stop(140%, #000));
+  background-image: linear-gradient(#1d5591 5%, #000 140%);
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -158,7 +159,7 @@ h1 {
 }
 
 .other_skills_head_text p {
-  
+  color: #616161;
 }
 
 .contact_head_text {
@@ -262,11 +263,11 @@ h1 {
 
 .progress-bar {
   cursor: pointer;
-  background-color: #5a5066;
+  background-color: #0d2641;
 }
 
 .progress-bar:hover {
-  background-color: #544b5e;
+  background-color: #12355a;
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -19,7 +19,7 @@ p{
     font-weight: bold;
 }
 .hero_section{
-    background: #5a5066;
+    background-image: linear-gradient(#1d5591 5% , #000 140%);
     width: 100%;
     height: 100vh;
     display:flex;
@@ -209,9 +209,9 @@ h1{
 }
 .progress-bar{
     cursor: pointer;
-    background-color: #5a5066;
+    background-color: #0d2641;
     &:hover{
-        background-color: #544b5e;
+        background-color: #12355a
     }
 }
 /* Extra small devices (phones, 600px and down) */
