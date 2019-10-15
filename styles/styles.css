@@ -200,9 +200,10 @@ h1 {
 }
 
 .contact {
-  background-color: #5a5066;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1d5591), color-stop(170%, #000));
+  background-image: linear-gradient(#1d5591 5%, #000 170%);
   margin-top: 6%;
-  padding-bottom: 10%;
+  padding-top: 0.1%;
 }
 
 .contact .container {
@@ -232,7 +233,8 @@ h1 {
 
 .footer_sesstion {
   height: 60px;
-  background-color: #2b1d3b;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(504%, #0f253c), color-stop(500%, #0d253f));
+  background-image: linear-gradient(#0f253c 504%, #0d253f 500%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
