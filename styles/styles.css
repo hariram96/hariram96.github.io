@@ -1,3 +1,23 @@
+#pre-loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-size: 150% 150%;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 99999999;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -202,7 +222,6 @@ h1 {
 .contact {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1d5591), color-stop(170%, #000));
   background-image: linear-gradient(#1d5591 5%, #000 170%);
-  margin-top: 6%;
   padding-top: 0.1%;
 }
 
