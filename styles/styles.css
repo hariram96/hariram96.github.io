@@ -39,6 +39,17 @@ p {
   font-weight: bold;
 }
 
+.image_width {
+  width: 80%;
+  margin: 25px 25px 0px 25px;
+}
+
+.about_div_box {
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11), 0 8px 16px rgba(0, 0, 0, 0.11);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11), 0 8px 16px rgba(0, 0, 0, 0.11);
+  padding-bottom: 10px;
+}
+
 .hero_section {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1d5591), color-stop(140%, #000));
   background-image: linear-gradient(#1d5591 5%, #000 140%);
