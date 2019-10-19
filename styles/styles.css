@@ -39,6 +39,10 @@ p {
   font-weight: bold;
 }
 
+.about_div_box {
+  margin-top: 6%;
+}
+
 .hero_section {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #1d5591), color-stop(140%, #000));
   background-image: linear-gradient(#1d5591 5%, #000 140%);
