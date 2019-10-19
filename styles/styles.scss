@@ -89,6 +89,11 @@ h1{
             left: calc(50% - 20px);
         }
     }
+    .card_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .card_text {
     margin-top: 3%;
