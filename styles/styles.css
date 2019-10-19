@@ -18,6 +18,16 @@
   justify-content: center;
 }
 
+.fa_icons {
+  font-size: 34px !important;
+  color: white;
+  margin: 6px;
+}
+
+.fa_icons:hover {
+  color: #969696;
+}
+
 body {
   overflow-x: hidden;
 }

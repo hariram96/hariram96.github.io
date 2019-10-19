@@ -15,6 +15,14 @@ $fontSize_3: 0.6rem;
     align-items:center;
     justify-content:center;
 }
+.fa_icons{
+    font-size: 34px !important;
+    color: white;
+    margin: 6px;
+    &:hover{
+        color: rgb(150, 150, 150);
+    }
+}
 body{
     overflow-x: hidden;
 }
