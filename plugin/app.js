@@ -84,5 +84,5 @@ particlesJS("particles-js", {
   /* ---- stats.js config ---- */
   window.addEventListener("load",function(){
     // $("#loading1").hide(1000)
-    $('#pre-loader').delay( 1000 ).fadeOut(2000);
+    $('#pre-loader').fadeOut("500");
 });
